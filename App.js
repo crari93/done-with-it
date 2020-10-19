@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Header from "./Components/Header";
 import TodoItem from "./Components/TodoItem";
+import AddItem from "./Components/addItem";
 import { StyleSheet, Text, View, FlatList } from "react-native";
 
 export default function App() {
@@ -17,11 +18,17 @@ export default function App() {
       return prevTodos.filter((todo) => todo.key != key);
     });
   };
+
+  const submitHandler = (text) => {
+    setTodos((prevTodos) => {
+      return [{ text: text, key: Math.random().toString() }, ...prevTodos];
+    });
+  };
   return (
     <View style={styles.container}>
       <Header />
       <View style={styles.content}>
-        <Text style={styles.title}>👇 Task to do 👇</Text>
+        <Text style={styles.title}>👇 Tasks to do 👇</Text>
         <View style={styles.list}>
           <FlatList
             data={todos}
@@ -34,6 +41,7 @@ export default function App() {
           />
         </View>
       </View>
+      <AddItem submitHandler={submitHandler} />
     </View>
   );
 }
