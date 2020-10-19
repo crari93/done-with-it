@@ -21,7 +21,7 @@ export default function App() {
     <View style={styles.container}>
       <Header />
       <View style={styles.content}>
-        {/*to from */}
+        <Text style={styles.title}>👇 Task to do 👇</Text>
         <View style={styles.list}>
           <FlatList
             data={todos}
@@ -48,5 +48,11 @@ const styles = StyleSheet.create({
   },
   list: {
     marginTop: 20,
+    borderTopColor: "black",
+    borderTopWidth: 1,
+  },
+  title: {
+    textAlign: "center",
+    fontSize: 20,
   },
 });
