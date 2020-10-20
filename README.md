@@ -24,7 +24,7 @@ To access the app, you can use one of the following options:
 
 If you can't download the Expo App, in the Expo project repository link, click where it says "Open Project in the Browser" below the QR Code, then click the purple button "Open Project", and a window will pop-up. Something like this:
 
-[Browser App Template](browser-app.png?raw=true "Browser App Template")
+![Browser App Template](browser-app.png?raw=true "Browser App Template")
 
 Now you just need to tap where it says "Tap to Play". There will be a queue, you will need to wait a little so you can start using the app.
 
