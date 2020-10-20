@@ -16,7 +16,7 @@ This app was created using React Native with Expo and coded in Visual Studio Cod
 
 You can enter this link: <a target="_blank" href='https://expo.io/@crari93/projects/done-with-it'>Expo project repository</a>
 
-To access the app, you need to download eht <a target="_blank" href='https://play.google.com/store/apps/details?id=host.exp.exponent&hl=es-419'>Expo app for Android</a> so you can scan QR code from the page yo use the app on your Android device.
+To access the app, you need to download the <a target="_blank" href='https://play.google.com/store/apps/details?id=host.exp.exponent&hl=es-419'>Expo app for Android</a> so you can scan QR code from the page yo use the app on your Android device.
 
 If you can't download the Expo App, in the Expo project repository link, click where it says "Open Project in the Browser" below the QR Code, then click the purple button "Open Project", and a window will pop-up. Something like this:
 
