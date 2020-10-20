@@ -6,11 +6,7 @@ import { StyleSheet, Text, View, FlatList } from "react-native";
 
 export default function App() {
   //we create an array with some items to display
-  const [todos, setTodos] = useState([
-    { text: "Buy coffee", key: "1" },
-    { text: "Create app", key: "2" },
-    { text: "Play on the PS4", key: "3" },
-  ]);
+  const [todos, setTodos] = useState([]);
 
   const pressHandler = (key) => {
     //here we hide a selected item from the list
